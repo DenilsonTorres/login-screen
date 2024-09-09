@@ -1,8 +1,105 @@
-*{
+* {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
-body{
+body {
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.interface {
+    width: 420px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    text-align: center;
+    padding: 30px 40px;
+    border-radius: 10px;
+
+}
+
+h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.form-inputs {
+    width: 100%;
+    position: relative;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.form-inputs input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 15px;
+    color: #fff;
+    padding: 20px 40px 20px 20px;
+}
+
+.form-inputs img {
+    position: absolute;
+    right: 24px;
+    top: 16%;
+    opacity: 25%;
+}
+
+.form-inputs a {
+    font-size: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.479);
+    cursor: pointer;
+    
+}
+
+.form-inputs a:hover {
+    text-decoration: underline;
+}
+
+.submit-button {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(84, 32, 228);
+    color: rgba(255, 255, 255, 0.479);
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: rgb(69, 23, 194);
+    transform: scale(1.02);
+    transition: 0.4s;
+}
+
+.register{
+    text-align: center;
+    margin: 20px 0;
+}
+.register p {
+    color: rgba(255, 255, 255, 0.479);
+    font-size: 15px;
+}
+
+.register p a {
+    color: rgba(255, 255, 255, 0.479);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+    transition: 0.4s;
 }
