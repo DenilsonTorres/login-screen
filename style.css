@@ -60,7 +60,7 @@ h1 {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.479);
     cursor: pointer;
-    
+
 }
 
 .form-inputs a:hover {
@@ -76,6 +76,7 @@ h1 {
     font-size: 15px;
     outline: none;
     cursor: pointer;
+    border: none;
 }
 
 .submit-button:hover {
@@ -84,10 +85,11 @@ h1 {
     transition: 0.4s;
 }
 
-.register{
+.register {
     text-align: center;
     margin: 20px 0;
 }
+
 .register p {
     color: rgba(255, 255, 255, 0.479);
     font-size: 15px;
